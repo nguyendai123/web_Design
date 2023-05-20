@@ -1,0 +1,36 @@
+:root{
+    --primary-text:#111111;
+    --gray-text:#555555;
+    --white-text:#FFFFFF;
+    --background: #F5F5F5;
+    --photo-transfer:#EBEBEB;
+    --discount:#9C6D3A;
+    --pre-oder:#177983;
+    --placehoder-search:#999999;
+}
+html, body{
+    font-family: 'GeneralSans-Variable', sans-serif;
+    font-size: 14px;
+    background-color: var(--background);
+}
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    
+    
+}
+.wrapper-content{
+    
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1860px;
+height: 4121px;
+left: 30px;
+top: 132px;
+
+}
