@@ -159,7 +159,7 @@
                 </div>  
                  
             </div>
-            <div id="banner2" class="banner2" tabindex="1">
+            <div id="banner2" class="banner2" >
                 <img src="./assets/images/banner2.svg" alt="banner">
                 <div class="banner__text">
                     <div style="text-align: center;
@@ -761,10 +761,12 @@
     </div>
     <script>
         function next() {
-        document.getElementById("banner2").style.display = "none";
+        document.getElementById("banner1").style.display = "none";
+        document.getElementById("banner2").style.display = "block";
         }
         function prev() {
-        document.getElementById("banner2").style.display = "block";
+        document.getElementById("banner2").style.display = "none";
+        document.getElementById("banner1").style.display = "block";
         }
         function search() {
         // document.getElementById("search")

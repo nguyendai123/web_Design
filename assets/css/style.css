@@ -454,18 +454,14 @@ top: 0px;
 }
 .banner2{
     
-   
+   display: none;
     position: absolute;
     width: 1860px;
     height: 798px;
     left: 0px;
     top: 0px; 
 }
-.banner2:focus{
-    display: none ;
-   
-    
-}
+
 /* #banner1:focus{
     display: block;
 } */
@@ -473,11 +469,7 @@ top: 0px;
     background: rgba(0, 0, 0, 0.35);
     border-radius: 20px;
 }
-#previ:hover ~ .banner2 {
-    display: block;
-    visibility: visible;
 
-}
 .banner__text{
     display: flex;
 flex-direction: column;
